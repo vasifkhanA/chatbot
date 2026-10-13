@@ -1,0 +1,1822 @@
+{
+  "questions": [
+    {
+      "question": "Django",
+      "keywords": [
+        "django",
+        "framework"
+      ],
+      "answers": [
+        "Django is a Python web framework.",
+        "Django is a popular framework for building web applications with Python.",
+        "Django helps developers create secure websites quickly."
+      ],
+      "follow_up": [
+        "What are Django features?",
+        "How do I create a Django project?",
+        "How do I install Django?"
+      ]
+    },
+    {
+      "question": "Python",
+      "keywords": [
+        "python",
+        "programming"
+      ],
+      "answers": [
+        "Python is a high-level programming language.",
+        "Python is used for web development, automation, AI, and data science.",
+        "Python has a simple and readable syntax."
+      ],
+      "follow_up": [
+        "What is Python used for?",
+        "How does Python work with Django?"
+      ]
+    },
+    {
+      "question": "HTML",
+      "keywords": [
+        "html",
+        "web page"
+      ],
+      "answers": [
+        "HTML is the standard markup language for web pages.",
+        "HTML creates the structure of a web page.",
+        "HTML is used to add headings, paragraphs, forms, links, and other page elements."
+      ],
+      "follow_up": [
+        "What is CSS?",
+        "What is JavaScript?"
+      ]
+    },
+    {
+      "question": "CSS",
+      "keywords": [
+        "css",
+        "style",
+        "design"
+      ],
+      "answers": [
+        "CSS is used to style HTML pages.",
+        "CSS controls colors, spacing, fonts, and layouts.",
+        "CSS makes web pages look attractive and responsive."
+      ],
+      "follow_up": [
+        "Can I make the chatbot responsive?",
+        "Can I change the chatbot colors?"
+      ]
+    },
+    {
+      "question": "JavaScript",
+      "keywords": [
+        "javascript",
+        "js"
+      ],
+      "answers": [
+        "JavaScript adds interactive behavior to web pages.",
+        "JavaScript lets the browser respond to user actions.",
+        "JavaScript can communicate with a Django backend using fetch."
+      ],
+      "follow_up": [
+        "How does JavaScript connect to Django?",
+        "What is fetch?"
+      ]
+    },
+    {
+      "question": "JSON",
+      "keywords": [
+        "json",
+        "data"
+      ],
+      "answers": [
+        "JSON is a simple text format for structured data.",
+        "JSON stores data using objects and arrays.",
+        "JSON is easy for humans and programs to read."
+      ],
+      "follow_up": [
+        "Why use JSON for this chatbot?",
+        "Can I edit the JSON?"
+      ]
+    },
+    {
+      "question": "Chatbot",
+      "keywords": [
+        "chatbot",
+        "bot",
+        "assistant"
+      ],
+      "answers": [
+        "A chatbot is a program that communicates with users through messages.",
+        "This chatbot finds answers from a local JSON knowledge base.",
+        "The chatbot can provide different answers for the same question."
+      ],
+      "follow_up": [
+        "How does this chatbot work?",
+        "Can I add more questions?"
+      ]
+    },
+    {
+      "question": "API",
+      "keywords": [
+        "api",
+        "application interface"
+      ],
+      "answers": [
+        "An API lets software systems communicate with each other.",
+        "APIs are commonly used to exchange data between applications.",
+        "This chatbot does not need an external AI API."
+      ],
+      "follow_up": [
+        "Does this chatbot need an API?",
+        "What is a REST API?"
+      ]
+    },
+    {
+      "question": "Database",
+      "keywords": [
+        "database",
+        "db",
+        "data storage"
+      ],
+      "answers": [
+        "A database stores and organizes application data.",
+        "Django can work with databases such as SQLite, PostgreSQL, and MySQL.",
+        "Databases are useful when an application needs persistent data."
+      ],
+      "follow_up": [
+        "What is SQLite?",
+        "Can this chatbot save chat history?"
+      ]
+    },
+    {
+      "question": "SQLite",
+      "keywords": [
+        "sqlite",
+        "database"
+      ],
+      "answers": [
+        "SQLite is a lightweight relational database.",
+        "SQLite stores data in a local database file.",
+        "SQLite is convenient for small Django projects and development."
+      ],
+      "follow_up": [
+        "How do I use SQLite in Django?"
+      ]
+    },
+    {
+      "question": "Django app",
+      "keywords": [
+        "django app",
+        "app",
+        "application"
+      ],
+      "answers": [
+        "A Django app is a reusable component inside a Django project.",
+        "An app normally handles one feature or area of a website.",
+        "For example, a chatbot can be one Django app."
+      ],
+      "follow_up": [
+        "How do I create a Django app?",
+        "What is a Django project?"
+      ]
+    },
+    {
+      "question": "Django project",
+      "keywords": [
+        "django project",
+        "project"
+      ],
+      "answers": [
+        "A Django project contains the main configuration for a website.",
+        "It includes settings, URLs, and one or more Django apps.",
+        "The project is the overall container for your Django applications."
+      ],
+      "follow_up": [
+        "What is a Django app?",
+        "What is settings.py?"
+      ]
+    },
+    {
+      "question": "views.py",
+      "keywords": [
+        "views",
+        "views.py"
+      ],
+      "answers": [
+        "views.py contains the code that handles web requests.",
+        "A Django view receives a request and returns a response.",
+        "Your chatbot endpoint can be placed in views.py."
+      ],
+      "follow_up": [
+        "What is urls.py?",
+        "How does the chatbot endpoint work?"
+      ]
+    },
+    {
+      "question": "urls.py",
+      "keywords": [
+        "urls",
+        "urls.py",
+        "url"
+      ],
+      "answers": [
+        "urls.py connects web addresses to Django views.",
+        "Django uses URL patterns to decide which view handles a request.",
+        "The chatbot can use /chat/ as its message endpoint."
+      ],
+      "follow_up": [
+        "What is a Django view?",
+        "What is the /chat/ URL?"
+      ]
+    },
+    {
+      "question": "settings.py",
+      "keywords": [
+        "settings",
+        "settings.py"
+      ],
+      "answers": [
+        "settings.py contains Django project configuration.",
+        "It controls installed apps, middleware, templates, static files, and other settings.",
+        "Database and security configuration can also be defined there."
+      ],
+      "follow_up": [
+        "What is ALLOWED_HOSTS?",
+        "What is DEBUG?"
+      ]
+    },
+    {
+      "question": "templates",
+      "keywords": [
+        "template",
+        "templates",
+        "html template"
+      ],
+      "answers": [
+        "Django templates are usually HTML files with dynamic template features.",
+        "Templates control what the user sees in the browser.",
+        "The chatbot interface is stored in an HTML template."
+      ],
+      "follow_up": [
+        "Where is the chatbot HTML?"
+      ]
+    },
+    {
+      "question": "static files",
+      "keywords": [
+        "static",
+        "css",
+        "javascript",
+        "static files"
+      ],
+      "answers": [
+        "Static files include CSS, JavaScript, images, and fonts.",
+        "Django serves static assets separately from templates.",
+        "The chatbot CSS and JavaScript are static files."
+      ],
+      "follow_up": [
+        "Where is the CSS file?",
+        "Where is the JavaScript file?"
+      ]
+    },
+    {
+      "question": "virtual environment",
+      "keywords": [
+        "venv",
+        "virtual environment",
+        "environment"
+      ],
+      "answers": [
+        "A virtual environment keeps Python packages isolated for a project.",
+        "It prevents package conflicts between different projects.",
+        "Use venv to create an isolated Python environment."
+      ],
+      "follow_up": [
+        "How do I create a virtual environment?",
+        "How do I activate venv?"
+      ]
+    },
+    {
+      "question": "pip",
+      "keywords": [
+        "pip",
+        "install package",
+        "python package"
+      ],
+      "answers": [
+        "pip is Python's package installer.",
+        "You can use pip to install Django and other Python packages.",
+        "requirements.txt can be installed using pip."
+      ],
+      "follow_up": [
+        "How do I install Django?",
+        "What is requirements.txt?"
+      ]
+    },
+    {
+      "question": "requirements.txt",
+      "keywords": [
+        "requirements",
+        "requirements.txt",
+        "dependencies"
+      ],
+      "answers": [
+        "requirements.txt lists the Python packages required by a project.",
+        "It makes it easier to install the same dependencies on another computer.",
+        "Run pip install -r requirements.txt to install them."
+      ],
+      "follow_up": [
+        "How do I install the requirements?"
+      ]
+    },
+    {
+      "question": "localhost",
+      "keywords": [
+        "localhost",
+        "127.0.0.1",
+        "local server"
+      ],
+      "answers": [
+        "localhost means your own computer when running a local server.",
+        "127.0.0.1 is commonly used to access a local Django server.",
+        "The chatbot can run locally without an external server."
+      ],
+      "follow_up": [
+        "How do I start Django?"
+      ]
+    },
+    {
+      "question": "runserver",
+      "keywords": [
+        "runserver",
+        "start server",
+        "server"
+      ],
+      "answers": [
+        "python manage.py runserver starts Django's development server.",
+        "After starting the server, open 127.0.0.1:8000 in your browser.",
+        "Runserver is mainly used for local development."
+      ],
+      "follow_up": [
+        "How do I stop the server?"
+      ]
+    },
+    {
+      "question": "migrations",
+      "keywords": [
+        "migration",
+        "migrate",
+        "database migration"
+      ],
+      "answers": [
+        "Django migrations apply model changes to a database.",
+        "Run python manage.py migrate to apply migrations.",
+        "Migrations keep database structure synchronized with Django models."
+      ],
+      "follow_up": [
+        "What is a model?"
+      ]
+    },
+    {
+      "question": "model",
+      "keywords": [
+        "model",
+        "models.py",
+        "django model"
+      ],
+      "answers": [
+        "A Django model represents data stored in a database.",
+        "Models are Python classes that Django maps to database tables.",
+        "Models make it easier to work with database records."
+      ],
+      "follow_up": [
+        "What is models.py?",
+        "Can the chatbot save messages?"
+      ]
+    },
+    {
+      "question": "authentication",
+      "keywords": [
+        "login",
+        "authentication",
+        "user login"
+      ],
+      "answers": [
+        "Django includes built-in authentication features.",
+        "You can add login, logout, users, and permissions.",
+        "Authentication protects pages and user accounts."
+      ],
+      "follow_up": [
+        "Can I add login to this chatbot?"
+      ]
+    },
+    {
+      "question": "admin",
+      "keywords": [
+        "admin",
+        "django admin",
+        "admin panel"
+      ],
+      "answers": [
+        "Django includes a built-in administration site.",
+        "The admin panel can manage database records.",
+        "You can customize the Django admin for your application."
+      ],
+      "follow_up": [
+        "How do I enable Django admin?"
+      ]
+    },
+    {
+      "question": "security",
+      "keywords": [
+        "security",
+        "secure",
+        "protection"
+      ],
+      "answers": [
+        "Django includes several built-in security protections.",
+        "For production, configure DEBUG, ALLOWED_HOSTS, HTTPS, and secret keys correctly.",
+        "Input validation and secure configuration are important for production."
+      ],
+      "follow_up": [
+        "What is CSRF?",
+        "Should DEBUG be false in production?"
+      ]
+    },
+    {
+      "question": "CSRF",
+      "keywords": [
+        "csrf",
+        "csrf token"
+      ],
+      "answers": [
+        "CSRF protection helps prevent certain unauthorized cross-site POST requests.",
+        "Django uses CSRF tokens to protect forms and POST requests.",
+        "The chatbot sends the CSRF token with its POST request."
+      ],
+      "follow_up": [
+        "Why does JavaScript use a CSRF token?"
+      ]
+    },
+    {
+      "question": "responsive",
+      "keywords": [
+        "responsive",
+        "mobile",
+        "mobile friendly"
+      ],
+      "answers": [
+        "A responsive interface adapts to different screen sizes.",
+        "CSS media queries can make the chatbot mobile friendly.",
+        "The chatbot UI can be used on phones, tablets, and desktops."
+      ],
+      "follow_up": [
+        "Can I change the mobile design?"
+      ]
+    },
+    {
+      "question": "working hours",
+      "keywords": [
+        "working hours",
+        "office hours",
+        "opening hours"
+      ],
+      "answers": [
+        "Our standard working hours are Monday to Friday, 9 AM to 6 PM.",
+        "We normally operate from 9 AM until 6 PM on weekdays.",
+        "Our office schedule is 9 AM–6 PM, Monday through Friday."
+      ],
+      "follow_up": [
+        "Are you open on weekends?",
+        "How can I contact support?"
+      ]
+    },
+    {
+      "question": "weekend",
+      "keywords": [
+        "weekend",
+        "saturday",
+        "sunday"
+      ],
+      "answers": [
+        "Our standard office schedule is Monday to Friday.",
+        "Saturday and Sunday are outside our standard working hours.",
+        "Weekend availability may depend on the service."
+      ],
+      "follow_up": [
+        "What are your working hours?"
+      ]
+    },
+    {
+      "question": "location",
+      "keywords": [
+        "location",
+        "where",
+        "office"
+      ],
+      "answers": [
+        "We are located in Coimbatore, Tamil Nadu.",
+        "Our office is based in Coimbatore, Tamil Nadu.",
+        "We are in Coimbatore, Tamil Nadu, India."
+      ],
+      "follow_up": [
+        "What are your working hours?",
+        "How can I contact you?"
+      ]
+    },
+    {
+      "question": "contact",
+      "keywords": [
+        "contact",
+        "email",
+        "support"
+      ],
+      "answers": [
+        "You can contact support through the Contact Us page.",
+        "Please use the support contact channel for assistance.",
+        "Our support team can help with questions and technical issues."
+      ],
+      "follow_up": [
+        "What is your support email?"
+      ]
+    },
+    {
+      "question": "support email",
+      "keywords": [
+        "support email",
+        "email",
+        "mail"
+      ],
+      "answers": [
+        "Our support email is support@example.com.",
+        "You can email support@example.com for support.",
+        "Please contact support@example.com for assistance."
+      ],
+      "follow_up": [
+        "What are your working hours?"
+      ]
+    },
+    {
+      "question": "services",
+      "keywords": [
+        "services",
+        "service",
+        "what do you provide"
+      ],
+      "answers": [
+        "We provide web development, mobile app development, and custom software solutions.",
+        "Our services include websites, web applications, mobile apps, and software solutions.",
+        "We focus on web, mobile, and custom software development."
+      ],
+      "follow_up": [
+        "Do you build websites?",
+        "Do you develop mobile apps?"
+      ]
+    },
+    {
+      "question": "website",
+      "keywords": [
+        "website",
+        "web development",
+        "web site"
+      ],
+      "answers": [
+        "Yes, we can build business websites and custom web applications.",
+        "We provide website and web application development.",
+        "Web development is one of our main services."
+      ],
+      "follow_up": [
+        "Can you build a custom application?"
+      ]
+    },
+    {
+      "question": "mobile app",
+      "keywords": [
+        "mobile app",
+        "android",
+        "ios",
+        "mobile development"
+      ],
+      "answers": [
+        "Yes, mobile application development is supported.",
+        "We can develop mobile apps based on project requirements.",
+        "Mobile development is one of our software services."
+      ],
+      "follow_up": [
+        "Do you build websites?"
+      ]
+    },
+    {
+      "question": "custom application",
+      "keywords": [
+        "custom application",
+        "custom software",
+        "application"
+      ],
+      "answers": [
+        "Yes, custom applications can be developed based on your requirements.",
+        "We can design software around your business needs.",
+        "Custom application development is supported."
+      ],
+      "follow_up": [
+        "What technologies do you use?"
+      ]
+    },
+    {
+      "question": "technology",
+      "keywords": [
+        "technology",
+        "technologies",
+        "tech stack"
+      ],
+      "answers": [
+        "This project uses Python, Django, HTML, CSS, JavaScript, and JSON.",
+        "Our sample chatbot stack is Python + Django + HTML + CSS + JavaScript + JSON.",
+        "The backend uses Django and the frontend uses HTML, CSS, and JavaScript."
+      ],
+      "follow_up": [
+        "Why use Django?",
+        "Why use JSON?"
+      ]
+    },
+    {
+      "question": "Django features",
+      "keywords": [
+        "django features",
+        "features",
+        "django"
+      ],
+      "answers": [
+        "Django provides URL routing, templates, forms, authentication, security, and database support.",
+        "Django includes many features needed for web application development.",
+        "Django helps developers build secure and maintainable web applications."
+      ],
+      "follow_up": [
+        "How do I create a Django project?"
+      ]
+    },
+    {
+      "question": "install Django",
+      "keywords": [
+        "install django",
+        "django install",
+        "pip django"
+      ],
+      "answers": [
+        "Install Django with pip install django.",
+        "Activate your virtual environment, then run pip install django.",
+        "You can install the project dependencies using pip install -r requirements.txt."
+      ],
+      "follow_up": [
+        "How do I create a virtual environment?"
+      ]
+    },
+    {
+      "question": "create project",
+      "keywords": [
+        "create project",
+        "startproject",
+        "new django project"
+      ],
+      "answers": [
+        "Run python -m django startproject project_name . to create a project.",
+        "You can use django-admin startproject project_name to start a Django project.",
+        "The startproject command creates the main Django configuration files."
+      ],
+      "follow_up": [
+        "How do I create a Django app?"
+      ]
+    },
+    {
+      "question": "create app",
+      "keywords": [
+        "create app",
+        "startapp",
+        "new app"
+      ],
+      "answers": [
+        "Run python manage.py startapp chatbot to create a Django app.",
+        "The startapp command creates files such as views.py and models.py.",
+        "A Django app can contain one specific feature such as a chatbot."
+      ],
+      "follow_up": [
+        "What is a Django app?"
+      ]
+    },
+    {
+      "question": "JSON chatbot",
+      "keywords": [
+        "json chatbot",
+        "json bot",
+        "json knowledge"
+      ],
+      "answers": [
+        "This chatbot reads questions and answers from a local JSON file.",
+        "No external AI API is required.",
+        "You can edit the JSON file to change the chatbot's knowledge."
+      ],
+      "follow_up": [
+        "Can I add more questions?",
+        "Can I add multiple answers?"
+      ]
+    },
+    {
+      "question": "multiple answers",
+      "keywords": [
+        "multiple answers",
+        "many answers",
+        "different answers"
+      ],
+      "answers": [
+        "Yes. Each question can have several answer choices.",
+        "The bot can randomly select one answer from the answers list.",
+        "Multiple answers make repeated questions feel more natural."
+      ],
+      "follow_up": [
+        "Can I add follow-up questions?"
+      ]
+    },
+    {
+      "question": "follow up",
+      "keywords": [
+        "follow up",
+        "follow-up",
+        "interactive question"
+      ],
+      "answers": [
+        "Yes. Each question can have follow-up questions.",
+        "Follow-up buttons can guide the user to related topics.",
+        "Interactive follow-ups make a simple FAQ chatbot easier to explore."
+      ],
+      "follow_up": [
+        "Can I add buttons?"
+      ]
+    },
+    {
+      "question": "buttons",
+      "keywords": [
+        "buttons",
+        "quick buttons",
+        "question buttons"
+      ],
+      "answers": [
+        "Yes. You can add clickable question buttons.",
+        "Quick-reply buttons let users select common questions without typing.",
+        "HTML buttons and JavaScript can make the chatbot interactive."
+      ],
+      "follow_up": [
+        "Can I add more questions?"
+      ]
+    },
+    {
+      "question": "no API",
+      "keywords": [
+        "without api",
+        "no api",
+        "external api"
+      ],
+      "answers": [
+        "Yes. This chatbot works without an external AI API.",
+        "The chatbot uses your local JSON file instead of a cloud AI service.",
+        "No OpenAI, Gemini, or other AI API is required."
+      ],
+      "follow_up": [
+        "How does the chatbot work?"
+      ]
+    },
+    {
+      "question": "AI",
+      "keywords": [
+        "ai",
+        "artificial intelligence",
+        "intelligent"
+      ],
+      "answers": [
+        "This simple version is not a large language model.",
+        "It behaves like an FAQ chatbot by matching questions to local JSON data.",
+        "You can later connect a local AI model if you want generative responses."
+      ],
+      "follow_up": [
+        "What is the difference from ChatGPT?"
+      ]
+    },
+    {
+      "question": "ChatGPT difference",
+      "keywords": [
+        "chatgpt",
+        "difference",
+        "large language model"
+      ],
+      "answers": [
+        "ChatGPT is a generative AI model, while this chatbot mainly retrieves answers from your JSON knowledge base.",
+        "This project is simpler and predictable because its answers come from local data.",
+        "A JSON chatbot is easier to customize for fixed FAQs."
+      ],
+      "follow_up": [
+        "Can I add a local AI model later?"
+      ]
+    },
+    {
+      "question": "edit JSON",
+      "keywords": [
+        "edit json",
+        "change json",
+        "modify json"
+      ],
+      "answers": [
+        "Yes. Open data/knowledge.json and edit the questions, keywords, answers, and follow-ups.",
+        "You can add or remove entries without changing the Django views.",
+        "JSON is the easiest place to customize the chatbot's knowledge."
+      ],
+      "follow_up": [
+        "What is the JSON format?"
+      ]
+    },
+    {
+      "question": "add questions",
+      "keywords": [
+        "add questions",
+        "new questions",
+        "more questions"
+      ],
+      "answers": [
+        "Add another object to the questions array in knowledge.json.",
+        "Each entry can have a question, keywords, answers, and follow_up list.",
+        "You can add as many relevant FAQ entries as your project needs."
+      ],
+      "follow_up": [
+        "Can I add 100 questions?"
+      ]
+    },
+    {
+      "question": "100 questions",
+      "keywords": [
+        "100 questions",
+        "one hundred",
+        "many questions"
+      ],
+      "answers": [
+        "Yes. The included project has more than 100 interactive questions.",
+        "You can keep expanding the JSON knowledge base.",
+        "A JSON file can contain many FAQ entries."
+      ],
+      "follow_up": [
+        "How do I add more questions?"
+      ]
+    },
+    {
+      "question": "chat history",
+      "keywords": [
+        "chat history",
+        "save chat",
+        "conversation history"
+      ],
+      "answers": [
+        "The simple version does not permanently save conversations.",
+        "You can add a Django model later to store messages.",
+        "Local browser history can also be implemented with JavaScript."
+      ],
+      "follow_up": [
+        "How can I save chat history?"
+      ]
+    },
+    {
+      "question": "random answers",
+      "keywords": [
+        "random answer",
+        "random answers",
+        "random"
+      ],
+      "answers": [
+        "The bot can randomly select one answer from the answers list.",
+        "Multiple answer variants can be used to avoid repeating exactly the same response.",
+        "Random selection is handled in the Python chatbot service."
+      ],
+      "follow_up": [
+        "Can I turn random answers off?"
+      ]
+    },
+    {
+      "question": "fallback",
+      "keywords": [
+        "fallback",
+        "unknown question",
+        "not found"
+      ],
+      "answers": [
+        "When no question matches well enough, the bot shows a fallback response.",
+        "You can customize the fallback message in services.py.",
+        "Adding more keywords usually improves matching."
+      ],
+      "follow_up": [
+        "How can I improve matching?"
+      ]
+    },
+    {
+      "question": "matching",
+      "keywords": [
+        "matching",
+        "match question",
+        "keywords"
+      ],
+      "answers": [
+        "The simple matcher checks the user's words against stored keywords.",
+        "It finds the first suitable question based on keyword matching.",
+        "This approach is easier to understand than a complex AI model."
+      ],
+      "follow_up": [
+        "Can I improve the matching algorithm?"
+      ]
+    },
+    {
+      "question": "greeting",
+      "keywords": [
+        "hello",
+        "hi",
+        "hey",
+        "greeting"
+      ],
+      "answers": [
+        "Hello! 👋 How can I help you?",
+        "Hi! 👋 What would you like to know?",
+        "Hello! I'm ready to answer your questions."
+      ],
+      "follow_up": [
+        "What is Django?",
+        "What can you do?"
+      ]
+    },
+    {
+      "question": "thanks",
+      "keywords": [
+        "thanks",
+        "thank you"
+      ],
+      "answers": [
+        "You're welcome! 😊",
+        "Happy to help!",
+        "You're very welcome!"
+      ],
+      "follow_up": [
+        "What else would you like to know?"
+      ]
+    },
+    {
+      "question": "bye",
+      "keywords": [
+        "bye",
+        "goodbye",
+        "see you"
+      ],
+      "answers": [
+        "Goodbye! Have a great day! 👋",
+        "Bye! See you next time!",
+        "Thanks for chatting. Goodbye!"
+      ],
+      "follow_up": []
+    },
+    {
+      "question": "what can you do",
+      "keywords": [
+        "what can you do",
+        "help",
+        "capabilities"
+      ],
+      "answers": [
+        "I can answer questions stored in my local JSON knowledge base.",
+        "I can provide FAQ answers and guide you through related topics.",
+        "I can answer questions about this Django chatbot and its sample services."
+      ],
+      "follow_up": [
+        "What is Django?",
+        "How does this chatbot work?"
+      ]
+    },
+    {
+      "question": "project structure",
+      "keywords": [
+        "project structure",
+        "folders",
+        "files"
+      ],
+      "answers": [
+        "The project has separate folders for Django configuration, chatbot code, templates, static files, and JSON data.",
+        "The project has separate folders for Django configuration, chatbot code, templates, static files, and JSON data.",
+        "The project has separate folders for Django configuration, chatbot code, templates, static files, and JSON data."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "manage.py",
+      "keywords": [
+        "manage.py",
+        "manage"
+      ],
+      "answers": [
+        "manage.py is the command-line utility used to run Django management commands.",
+        "manage.py is the command-line utility used to run Django management commands.",
+        "manage.py is the command-line utility used to run Django management commands."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "requirements",
+      "keywords": [
+        "requirements.txt",
+        "dependencies"
+      ],
+      "answers": [
+        "requirements.txt lists the packages needed by the project.",
+        "requirements.txt lists the packages needed by the project.",
+        "requirements.txt lists the packages needed by the project."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "CSS file",
+      "keywords": [
+        "css file",
+        "style.css",
+        "where css"
+      ],
+      "answers": [
+        "The chatbot CSS is stored in chatbot/static/chatbot/style.css.",
+        "The chatbot CSS is stored in chatbot/static/chatbot/style.css.",
+        "The chatbot CSS is stored in chatbot/static/chatbot/style.css."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "JavaScript file",
+      "keywords": [
+        "javascript file",
+        "app.js",
+        "where javascript"
+      ],
+      "answers": [
+        "The chatbot JavaScript is stored in chatbot/static/chatbot/app.js.",
+        "The chatbot JavaScript is stored in chatbot/static/chatbot/app.js.",
+        "The chatbot JavaScript is stored in chatbot/static/chatbot/app.js."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "HTML file",
+      "keywords": [
+        "html file",
+        "index.html",
+        "where html"
+      ],
+      "answers": [
+        "The chatbot HTML template is stored in chatbot/templates/chatbot/index.html.",
+        "The chatbot HTML template is stored in chatbot/templates/chatbot/index.html.",
+        "The chatbot HTML template is stored in chatbot/templates/chatbot/index.html."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "knowledge file",
+      "keywords": [
+        "knowledge file",
+        "knowledge.json",
+        "data file"
+      ],
+      "answers": [
+        "The chatbot knowledge is stored in data/knowledge.json.",
+        "The chatbot knowledge is stored in data/knowledge.json.",
+        "The chatbot knowledge is stored in data/knowledge.json."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "chat endpoint",
+      "keywords": [
+        "chat endpoint",
+        "chat url",
+        "/chat/"
+      ],
+      "answers": [
+        "The /chat/ endpoint receives the user's message and returns a JSON response.",
+        "The /chat/ endpoint receives the user's message and returns a JSON response.",
+        "The /chat/ endpoint receives the user's message and returns a JSON response."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "POST request",
+      "keywords": [
+        "post",
+        "post request"
+      ],
+      "answers": [
+        "The browser sends the chat message to Django using an HTTP POST request.",
+        "The browser sends the chat message to Django using an HTTP POST request.",
+        "The browser sends the chat message to Django using an HTTP POST request."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "fetch",
+      "keywords": [
+        "fetch",
+        "javascript fetch"
+      ],
+      "answers": [
+        "fetch() lets JavaScript send a request to the Django chat endpoint.",
+        "fetch() lets JavaScript send a request to the Django chat endpoint.",
+        "fetch() lets JavaScript send a request to the Django chat endpoint."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "CSRF token",
+      "keywords": [
+        "csrf token",
+        "token"
+      ],
+      "answers": [
+        "Django uses a CSRF token to protect POST requests.",
+        "Django uses a CSRF token to protect POST requests.",
+        "Django uses a CSRF token to protect POST requests."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "DEBUG",
+      "keywords": [
+        "debug",
+        "debug true"
+      ],
+      "answers": [
+        "DEBUG helps during development but should be disabled in production.",
+        "DEBUG helps during development but should be disabled in production.",
+        "DEBUG helps during development but should be disabled in production."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "ALLOWED_HOSTS",
+      "keywords": [
+        "allowed hosts",
+        "allowed_hosts"
+      ],
+      "answers": [
+        "ALLOWED_HOSTS specifies which hostnames are allowed to serve a Django site.",
+        "ALLOWED_HOSTS specifies which hostnames are allowed to serve a Django site.",
+        "ALLOWED_HOSTS specifies which hostnames are allowed to serve a Django site."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "production",
+      "keywords": [
+        "production",
+        "deploy"
+      ],
+      "answers": [
+        "For production, use DEBUG=False, a secure secret key, proper ALLOWED_HOSTS, HTTPS, and a production server.",
+        "For production, use DEBUG=False, a secure secret key, proper ALLOWED_HOSTS, HTTPS, and a production server.",
+        "For production, use DEBUG=False, a secure secret key, proper ALLOWED_HOSTS, HTTPS, and a production server."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "deploy",
+      "keywords": [
+        "deployment",
+        "deploy",
+        "hosting"
+      ],
+      "answers": [
+        "The project can be deployed to a Python/Django hosting service after production configuration.",
+        "The project can be deployed to a Python/Django hosting service after production configuration.",
+        "The project can be deployed to a Python/Django hosting service after production configuration."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "stop server",
+      "keywords": [
+        "stop server",
+        "stop django",
+        "ctrl c"
+      ],
+      "answers": [
+        "Press Ctrl+C in the terminal to stop the Django development server.",
+        "Press Ctrl+C in the terminal to stop the Django development server.",
+        "Press Ctrl+C in the terminal to stop the Django development server."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "restart server",
+      "keywords": [
+        "restart server",
+        "restart django"
+      ],
+      "answers": [
+        "Press Ctrl+C and then run python manage.py runserver again.",
+        "Press Ctrl+C and then run python manage.py runserver again.",
+        "Press Ctrl+C and then run python manage.py runserver again."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "change bot name",
+      "keywords": [
+        "bot name",
+        "change name",
+        "assistant name"
+      ],
+      "answers": [
+        "Edit the chatbot title in chatbot/templates/chatbot/index.html.",
+        "Edit the chatbot title in chatbot/templates/chatbot/index.html.",
+        "Edit the chatbot title in chatbot/templates/chatbot/index.html."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "change colors",
+      "keywords": [
+        "colors",
+        "change color",
+        "theme"
+      ],
+      "answers": [
+        "Edit chatbot/static/chatbot/style.css to change colors and visual styling.",
+        "Edit chatbot/static/chatbot/style.css to change colors and visual styling.",
+        "Edit chatbot/static/chatbot/style.css to change colors and visual styling."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "dark mode",
+      "keywords": [
+        "dark mode",
+        "dark theme"
+      ],
+      "answers": [
+        "Dark mode can be added by creating dark CSS rules and toggling a class with JavaScript.",
+        "Dark mode can be added by creating dark CSS rules and toggling a class with JavaScript.",
+        "Dark mode can be added by creating dark CSS rules and toggling a class with JavaScript."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "logo",
+      "keywords": [
+        "logo",
+        "add logo"
+      ],
+      "answers": [
+        "Add an image to the HTML header and place the image in a Django static folder.",
+        "Add an image to the HTML header and place the image in a Django static folder.",
+        "Add an image to the HTML header and place the image in a Django static folder."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "timestamp",
+      "keywords": [
+        "timestamp",
+        "message time"
+      ],
+      "answers": [
+        "Message timestamps can be added with a small JavaScript function.",
+        "Message timestamps can be added with a small JavaScript function.",
+        "Message timestamps can be added with a small JavaScript function."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "voice",
+      "keywords": [
+        "voice input",
+        "speech"
+      ],
+      "answers": [
+        "Voice input can be added using browser speech-recognition features where supported.",
+        "Voice input can be added using browser speech-recognition features where supported.",
+        "Voice input can be added using browser speech-recognition features where supported."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "Tamil",
+      "keywords": [
+        "tamil",
+        "tamil language"
+      ],
+      "answers": [
+        "You can store Tamil questions and answers in UTF-8 JSON.",
+        "You can store Tamil questions and answers in UTF-8 JSON.",
+        "You can store Tamil questions and answers in UTF-8 JSON."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "multiple languages",
+      "keywords": [
+        "multilingual",
+        "multiple languages"
+      ],
+      "answers": [
+        "You can store multiple languages in JSON, although matching may need language-specific improvements.",
+        "You can store multiple languages in JSON, although matching may need language-specific improvements.",
+        "You can store multiple languages in JSON, although matching may need language-specific improvements."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "synonyms",
+      "keywords": [
+        "synonyms",
+        "similar words"
+      ],
+      "answers": [
+        "Add synonyms to the keywords list to improve simple matching.",
+        "Add synonyms to the keywords list to improve simple matching.",
+        "Add synonyms to the keywords list to improve simple matching."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "local AI",
+      "keywords": [
+        "local ai",
+        "ollama",
+        "local model"
+      ],
+      "answers": [
+        "A local AI model can be integrated later if you want generative answers without a cloud API.",
+        "A local AI model can be integrated later if you want generative answers without a cloud API.",
+        "A local AI model can be integrated later if you want generative answers without a cloud API."
+      ],
+      "follow_up": [
+        "Would you like to ask another question?"
+      ]
+    },
+    {
+      "question": "pricing",
+      "keywords": [
+        "pricing",
+        "price",
+        "cost"
+      ],
+      "answers": [
+        "You can add your pricing information to the JSON knowledge base.",
+        "Pricing FAQs can be stored as question and answer entries.",
+        "Edit knowledge.json to customize pricing information."
+      ],
+      "follow_up": [
+        "Do you want to know about services?"
+      ]
+    },
+    {
+      "question": "refund policy",
+      "keywords": [
+        "refund",
+        "return",
+        "money"
+      ],
+      "answers": [
+        "You can add refund policy information to the JSON file.",
+        "Refund FAQs can be customized in the knowledge base.",
+        "Add your actual refund rules to the JSON answers."
+      ],
+      "follow_up": [
+        "What services do you provide?"
+      ]
+    },
+    {
+      "question": "delivery",
+      "keywords": [
+        "delivery",
+        "shipping",
+        "order"
+      ],
+      "answers": [
+        "Delivery information can be stored in the JSON knowledge base.",
+        "You can add shipping and delivery FAQs to this chatbot.",
+        "Customize delivery answers in knowledge.json."
+      ],
+      "follow_up": [
+        "Do you want to know about support?"
+      ]
+    },
+    {
+      "question": "order status",
+      "keywords": [
+        "order status",
+        "order",
+        "status"
+      ],
+      "answers": [
+        "Order-status questions can be added to the JSON knowledge base.",
+        "Connect this chatbot to a database later if you need live order status.",
+        "For a simple project, store sample order FAQs in JSON."
+      ],
+      "follow_up": [
+        "Can I add a database?"
+      ]
+    },
+    {
+      "question": "password",
+      "keywords": [
+        "password",
+        "reset password",
+        "forgot password"
+      ],
+      "answers": [
+        "Password-reset instructions can be added to the JSON knowledge base.",
+        "For real authentication, use Django's authentication system.",
+        "Do not store real passwords in JSON."
+      ],
+      "follow_up": [
+        "Can I add login?"
+      ]
+    },
+    {
+      "question": "registration",
+      "keywords": [
+        "register",
+        "registration",
+        "signup"
+      ],
+      "answers": [
+        "User registration can be added with Django forms and authentication.",
+        "A registration page can be created as a separate Django view.",
+        "The simple chatbot does not require registration."
+      ],
+      "follow_up": [
+        "Can I add login?"
+      ]
+    },
+    {
+      "question": "login",
+      "keywords": [
+        "login",
+        "sign in",
+        "signin"
+      ],
+      "answers": [
+        "Django provides authentication tools for login.",
+        "You can add a login page using Django authentication.",
+        "The current chatbot works without user login."
+      ],
+      "follow_up": [
+        "Can I add user accounts?"
+      ]
+    },
+    {
+      "question": "user accounts",
+      "keywords": [
+        "users",
+        "accounts",
+        "user account"
+      ],
+      "answers": [
+        "Django supports user accounts and permissions.",
+        "You can add user registration, login, and logout.",
+        "The current JSON chatbot is public and does not require accounts."
+      ],
+      "follow_up": [
+        "Can I add login?"
+      ]
+    },
+    {
+      "question": "forms",
+      "keywords": [
+        "forms",
+        "django forms",
+        "form"
+      ],
+      "answers": [
+        "Django forms help validate and process user input.",
+        "Forms can be used for registration, contact pages, and other features.",
+        "The chatbot itself uses JavaScript to send messages."
+      ],
+      "follow_up": [
+        "What is CSRF?"
+      ]
+    },
+    {
+      "question": "middleware",
+      "keywords": [
+        "middleware",
+        "django middleware"
+      ],
+      "answers": [
+        "Django middleware processes requests and responses globally.",
+        "Middleware can provide security, sessions, authentication, and other features.",
+        "The chatbot uses CSRF middleware for POST protection."
+      ],
+      "follow_up": [
+        "What is CSRF?"
+      ]
+    },
+    {
+      "question": "request",
+      "keywords": [
+        "request",
+        "http request"
+      ],
+      "answers": [
+        "A request contains information sent by a browser to the server.",
+        "Django views receive request objects.",
+        "The chatbot receives the user's message in a POST request."
+      ],
+      "follow_up": [
+        "What is a response?"
+      ]
+    },
+    {
+      "question": "response",
+      "keywords": [
+        "response",
+        "http response"
+      ],
+      "answers": [
+        "A response is what the server sends back to the browser.",
+        "Django can return HTML or JSON responses.",
+        "The chatbot endpoint returns a JSON response."
+      ],
+      "follow_up": [
+        "What is JSON?"
+      ]
+    },
+    {
+      "question": "JSON object",
+      "keywords": [
+        "json object",
+        "object"
+      ],
+      "answers": [
+        "A JSON object stores named properties using key-value pairs.",
+        "The chatbot uses JSON objects for each question.",
+        "Each entry contains question, keywords, answers, and follow_up."
+      ],
+      "follow_up": [
+        "What is a JSON array?"
+      ]
+    },
+    {
+      "question": "JSON array",
+      "keywords": [
+        "json array",
+        "array",
+        "list"
+      ],
+      "answers": [
+        "A JSON array stores a list of values.",
+        "The answers and follow-up questions are stored as arrays.",
+        "Arrays make it easy to store multiple answer choices."
+      ],
+      "follow_up": [
+        "Can I add multiple answers?"
+      ]
+    },
+    {
+      "question": "Python list",
+      "keywords": [
+        "python list",
+        "list"
+      ],
+      "answers": [
+        "A Python list stores multiple values in order.",
+        "The chatbot uses lists for answers and keywords.",
+        "Lists are useful for handling multiple answer choices."
+      ],
+      "follow_up": [
+        "What is a Python dictionary?"
+      ]
+    },
+    {
+      "question": "Python dictionary",
+      "keywords": [
+        "dictionary",
+        "dict",
+        "python dict"
+      ],
+      "answers": [
+        "A Python dictionary stores data as key-value pairs.",
+        "Dictionaries are useful for reading JSON objects in Python.",
+        "The chatbot accesses fields such as question and answers from dictionaries."
+      ],
+      "follow_up": [
+        "What is JSON?"
+      ]
+    },
+    {
+      "question": "error handling",
+      "keywords": [
+        "error handling",
+        "errors",
+        "exception"
+      ],
+      "answers": [
+        "Error handling prevents one problem from crashing the whole application.",
+        "Python try/except can handle invalid JSON and server errors.",
+        "The chatbot returns a friendly error when a request is invalid."
+      ],
+      "follow_up": [
+        "What if the JSON is invalid?"
+      ]
+    },
+    {
+      "question": "invalid JSON",
+      "keywords": [
+        "invalid json",
+        "json error",
+        "json syntax"
+      ],
+      "answers": [
+        "Check commas, quotes, brackets, and braces when JSON is invalid.",
+        "A JSON parser error usually points to invalid JSON syntax.",
+        "Use a JSON validator to check the file."
+      ],
+      "follow_up": [
+        "Can I edit JSON?"
+      ]
+    },
+    {
+      "question": "browser",
+      "keywords": [
+        "browser",
+        "chrome",
+        "edge"
+      ],
+      "answers": [
+        "The chatbot can run in a modern web browser.",
+        "Open the local Django address in Chrome, Edge, Firefox, or another browser.",
+        "JavaScript runs in the browser and communicates with Django."
+      ],
+      "follow_up": [
+        "What is localhost?"
+      ]
+    },
+    {
+      "question": "Chrome",
+      "keywords": [
+        "chrome",
+        "google chrome"
+      ],
+      "answers": [
+        "Chrome is a web browser that can open the local chatbot.",
+        "Open http://127.0.0.1:8000/ in Chrome while Django is running.",
+        "Browser developer tools can help debug JavaScript."
+      ],
+      "follow_up": [
+        "What is localhost?"
+      ]
+    },
+    {
+      "question": "developer tools",
+      "keywords": [
+        "developer tools",
+        "devtools",
+        "console"
+      ],
+      "answers": [
+        "Browser developer tools help inspect HTML, CSS, network requests, and JavaScript errors.",
+        "Press F12 or use the browser menu to open developer tools.",
+        "The Console and Network tabs are especially useful for debugging."
+      ],
+      "follow_up": [
+        "How do I debug the chatbot?"
+      ]
+    },
+    {
+      "question": "debug chatbot",
+      "keywords": [
+        "debug chatbot",
+        "debug",
+        "troubleshoot"
+      ],
+      "answers": [
+        "Check the Django terminal and browser console for errors.",
+        "First confirm that Django is running and the /chat/ request succeeds.",
+        "Then check the JSON structure and JavaScript console."
+      ],
+      "follow_up": [
+        "What if the chatbot does not respond?"
+      ]
+    },
+    {
+      "question": "not responding",
+      "keywords": [
+        "not responding",
+        "chatbot not working",
+        "no response"
+      ],
+      "answers": [
+        "Make sure python manage.py runserver is running.",
+        "Check the browser console and Django terminal for errors.",
+        "Confirm that the /chat/ URL is available."
+      ],
+      "follow_up": [
+        "How do I start Django?"
+      ]
+    },
+    {
+      "question": "internet",
+      "keywords": [
+        "internet",
+        "offline",
+        "without internet"
+      ],
+      "answers": [
+        "The chatbot does not need an external AI service or internet connection after dependencies are installed.",
+        "It can run locally on your computer.",
+        "A production deployment will of course need network access for users to reach it."
+      ],
+      "follow_up": [
+        "Does this chatbot need an API?"
+      ]
+    },
+    {
+      "question": "open source",
+      "keywords": [
+        "open source",
+        "source code",
+        "free"
+      ],
+      "answers": [
+        "Django is open source and free to use.",
+        "This sample project is built with standard Python and Django components.",
+        "You can modify the project code for your own learning project."
+      ],
+      "follow_up": [
+        "Is Django free?"
+      ]
+    },
+    {
+      "question": "Django free",
+      "keywords": [
+        "django free",
+        "free django",
+        "cost django"
+      ],
+      "answers": [
+        "Yes. Django is free and open source.",
+        "You do not need to pay a Django license fee.",
+        "Hosting and other services may have their own costs."
+      ],
+      "follow_up": [
+        "What is Django?"
+      ]
+    }
+  ]
+}
